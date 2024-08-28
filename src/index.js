@@ -5,6 +5,7 @@ import App from './App';
 import Home from './pages/Home/home';
 import Projects from './pages/Projects/projects';
 import Contact from './pages/Contact/Contact';
+import AboutShefo from './pages/About/aboutShefo';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>,
+    errorElement: <h1>Sorry</h1>
+  },
+  {
+    path: "/aboutShefo",
+    element: <AboutShefo/>,
     errorElement: <h1>Sorry</h1>
   },
 ]);

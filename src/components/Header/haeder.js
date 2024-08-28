@@ -1,16 +1,19 @@
 import React from "react";
-
+import { Link , NavLink } from "react-router-dom";
 const Haeder = () => {
   return (
     <div>
       <header className="hide-when-mobile">
-        <h1>SHEFO</h1>
+        <NavLink className="about" to= "/aboutShefo">
+          
+          <h1>SHEFO</h1>
+        </NavLink>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="/">
+            <NavLink className="main-link" to="/">
               Home
-            </a>
-            <ul className="sub-ul">
+            </NavLink>
+            {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -20,13 +23,13 @@ const Haeder = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="main-list">
-            <a className="main-link" href="/projects">
+            <NavLink className="main-link" to="/projects">
               Projects
-            </a>
-            <ul className="sub-ul">
+            </NavLink>
+            {/* <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -47,17 +50,17 @@ const Haeder = () => {
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="main-list">
-            <a className="main-link" href="/contact">
+            <NavLink className="main-link" to="/contact">
               Contact
-            </a>
-            <ul className="sub-ul sub-of-js">
+            </NavLink>
+            {/* <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul>
+            </ul> */}
           </li>
         </ul>
       </header>

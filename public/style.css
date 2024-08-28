@@ -73,7 +73,7 @@ h1 {
   padding: 8px 15px;
 }
 
-.main-link:hover {
+.main-link:hover , .main-link.active {
   color: cyan;
   box-shadow: 0 0 5px cyan;
   border-radius: 5px;
@@ -176,4 +176,10 @@ footer{
 ===================== */
 .show-when-mobile {
   display: none;
+}
+
+.about.active h1{
+  color: cyan;
+  /* box-shadow: 0 0 5px cyan;
+  border-radius: 5px; */
 }
