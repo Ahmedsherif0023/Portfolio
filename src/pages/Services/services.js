@@ -1,11 +1,10 @@
 import React from 'react';
-import Header from '../../components/Header/header';
-import Footer from '../../components/Footer/footer';
-const AboutShefo = () => {
+import Header from "../../components/Header/header"
+import Footer from "../../components/Footer/footer"
+const Services = () => {
   return (
-    <>
-      
-      <meta charSet="UTF-8" />
+    <div>
+        <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Document</title>
       <link rel="stylesheet" href="style.css" />
@@ -20,11 +19,11 @@ const AboutShefo = () => {
       />
       <Header/>
       <main>
-        <h1>About Page</h1>
+        <h1>My Services</h1>
       </main>
       <Footer/>
-    </>
+    </div>
   );
 }
 
-export default AboutShefo;
+export default Services;

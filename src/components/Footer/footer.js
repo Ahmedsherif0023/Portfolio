@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <footer>Designed and developed by SHEFO</footer>
+      <footer>Designed & Developed by SHEFO</footer>
     </div>
   );
 }

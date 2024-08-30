@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/Header/haeder";
+import Header from "../../components/Header/header";
 import Footer from "../../components/Footer/footer";
 
 const Contact = () => {
@@ -19,7 +19,9 @@ const Contact = () => {
         media="(max-width: 800px)"
       />
     <Header/>
-      <main>Contact Page</main>
+      <main>
+        <h1>Contact Page</h1>
+      </main>
       <Footer/>
         </>
   );

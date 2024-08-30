@@ -1,6 +1,8 @@
 import React from "react";
-import Header from "../../components/Header/haeder";
+import Header from "../../components/Header/header";
 import Footer from "../../components/Footer/footer";
+import Photo from "../../assets/MyPhoto.png";
+import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -18,8 +20,45 @@ const Home = () => {
         media="(max-width: 800px)"
       />
       <Header />
-      <main>Home Page</main>
-      <Footer/>
+      <main>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="hello">
+          <label id="xyxy"> Hello!</label>
+          <p><label id="xxzz">I'm</label> Ahmed Sherif</p>
+          <p>Front-end Web Developer</p>
+        </div>
+        <>
+          <img id="img" src={Photo} alt="My_Photo" />
+        </>
+
+        <div id="bttn">
+          <NavLink to="/contact">
+            <button className="btn">Hire Me</button>
+          </NavLink >
+        <NavLink to= "/projects">
+            <button className="btn">My works</button>
+        </NavLink>
+          
+        </div>
+
+
+
+
+
+
+
+        
+      </main>
+      <Footer />
     </>
   );
 };

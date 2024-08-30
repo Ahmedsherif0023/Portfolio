@@ -70,6 +70,9 @@ label:hover .fas
   border-bottom: 2px solid black;
 }
 
+.xxx{
+  font-weight:800
+}
 /* ====================================
     3. sub of div
 ======================================= */
@@ -88,6 +91,30 @@ label:hover .fas
 .sub-div li{
   font-size: 17px;
   padding: 10px 0 10px 35px;
+}
+
+.main-link {
+  padding: 0px 15px;
+  color: white;
+}
+.main-link::after{
+  content: "";
+  position: absolute;
+  background-color: cyan;
+  height: 3px;
+  width: 0;
+  left: 0;
+  margin-top: 22px;
+  /* bottom: 0px; */
+  transition: 0.3s;
+}
+.main-link:hover:after, .main-link.active:after{
+  width: 15%;
+  margin-left: 25px;
+}
+.main-link:hover , .main-link.active {
+  color: cyan;
+
 }
 
 
@@ -109,3 +136,4 @@ label:hover .fas
   padding: 0;
   font-size: 17px;
 }
+
