@@ -196,6 +196,9 @@ footer {
   display: none;
 }
 
+.show-when-mobile .xxx{
+  margin-left: 50px;
+}
 .about.active h1 {
   color: cyan;
   /* box-shadow: 0 0 5px cyan;
@@ -238,7 +241,7 @@ footer {
 }
 
 .btn {
-    outline: none;
+  outline: none;
   cursor: pointer;
   width: 150px;
   height: 50px;
@@ -269,7 +272,7 @@ footer {
     0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
 
-@media (max-width:1185px)  {
+@media (max-width: 1185px) {
   /* #img{
     width: 25%;
   } */
@@ -284,11 +287,11 @@ footer {
     left: 180px;
     bottom: 220px;
   }
-  .btn{
+  .btn {
     width: 120px;
   }
 }
-@media (max-width:948px)  {
+@media (max-width: 948px) {
   #hello {
     color: cyan;
     position: absolute;
@@ -300,23 +303,475 @@ footer {
     left: 180px;
     bottom: 200px;
   }
-  .btn{
+  .btn {
     width: 100px;
   }
 }
-@media (max-width:801px)  {
+
+@media (max-width: 800px) {
+  #hello {
+    color: cyan;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    font-size: 22px;
+  }
+  #xyxy {
+    font-size: 18px;
+    top: -50px;
+    left: 85px;
+  }
+  #xxzz {
+    font-size: 30px;
+    position: relative;
+    left: -10px;
+  }
+  #bttn {
+    position: absolute;
+    left: 250px;
+    bottom: 400px;
+  }
+  .btn {
+    width: 100px;
+  }
+  #img {
+    width: 30%;
+    position: absolute;
+    right: 270px;
+    top: 450px;
+  }
+}
+
+@media (max-width: 600px) {
   #hello {
     color: cyan;
     position: absolute;
     left: 150px;
-    font-size: 28px;
+    top: 150px;
+    font-size: 22px;
+  }
+  #xyxy {
+    font-size: 18px;
+    top: -50px;
+    left: 85px;
+  }
+  #xxzz {
+    font-size: 22px;
+    position: relative;
+    left: -10px;
   }
   #bttn {
     position: absolute;
-    left: 180px;
-    bottom: 200px;
+    left: 150px;
+    bottom: 400px;
   }
-  .btn{
+  .btn {
     width: 100px;
   }
+  #img {
+    width: 40%;
+    position: absolute;
+    right: 160px;
+    top: 450px;
+  }
+}
+
+@media (max-width:460px){
+  #xxzz{
+    font-size: 15px;
+    top: 18px;
+  }
+  #xyxy{
+    left: 25%;
+    font-size: 15px;
+  }
+  #hello{
+    font-size: 15px;
+    left: 30%;
+  }
+  #bttn {
+    position: absolute;
+    left: 80px;
+    bottom: 400px;
+  }
+  #img {
+    width: 40%;
+    position: absolute;
+    right: 130px;
+    top: 450px;
+  }
+}
+
+/* ==================
+    5. About page Styling
+===================== */
+
+
+
+.aboutme {
+  color: cyan;
+  position: absolute;
+  top: 50px;
+}
+
+.info {
+  color: white;
+  position: absolute;
+  top: 100px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  opacity: 20%;
+}
+.infoUl {
+  color: white;
+  position: absolute;
+  top: 230px;
+  font-size: 20px;
+}
+.xzxc.aa {
+  padding-left: 90px;
+  margin-left: 30px;
+  color: grey;
+  font-weight: lighter;
+}
+.xzxc.bb {
+  padding-left: 50px;
+  color: grey;
+  font-weight: lighter;
+}
+.xzxc.cc {
+  padding-left: 100px;
+  color: grey;
+  font-weight: lighter;
+}
+.xzxc.dd {
+  padding-left: 90px;
+  color: grey;
+  font-weight: lighter;
+}
+.xzxc.ee {
+  padding-left: 120px;
+  color: grey;
+  font-weight: lighter;
+}
+.xzxc.ff {
+  padding-left: 120px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.a {
+  position: relative;
+  left: 5px;
+}
+.b {
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+.c {
+  position: relative;
+  left: 60px;
+  top: 20px;
+}
+.d {
+  position: relative;
+  left: -30px;
+  top: 30px;
+}
+.e {
+  position: relative;
+  left: 90px;
+  top: 40px;
+}
+.f {
+  position: relative;
+  left: 20px;
+  top: 50px;
+}
+
+.img{
+  position: absolute;
+  left: 50px;
+  width: 25%;
+}
+
+.pj{
+  color: cyan;
+  font-weight: bolder;
+}
+
+.f.z{
+  font-weight: lighter;
+  left: -45px;
+  top: 90px;
+}
+
+.f.z.b{
+  color: cyan;
+  background-color: #606060;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: #fff 2px 2px 4px;
+}
+
+.f.z.b:hover{
+  cursor:pointer;
+}
+
+
+@media (max-width:1100px){
+  .infoUl{
+    color: white;
+    font-size: 15px;
+  }
+  .a {
+    position: relative;
+    left: 5px;
+  }
+  .b {
+    position: relative;
+    left: 20px;
+    top: 10px;
+  }
+  .c {
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  .d {
+    position: relative;
+    left: -20px;
+    top: 30px;
+  }
+  .e {
+    position: relative;
+    left: 70px;
+    top: 40px;
+  }
+  .f {
+    position: relative;
+    left: 20px;
+    top: 50px;
+  }
+  
+  .img{
+    position: absolute;
+    left: 50px;
+    width: 25%;
+  }
+  
+  .pj{
+    color: cyan;
+    font-weight: bolder;
+  }
+  
+  .f.z{
+    font-weight: lighter;
+    left: -45px;
+    top: 90px;
+  }
+  
+  .f.z.b{
+    color: cyan;
+    background-color: #606060;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: #fff 2px 2px 4px;
+  }
+}
+
+@media (max-width:800px){
+  
+  .a {
+    position: relative;
+    left: 15%;
+  }
+  .b {
+    position: relative;
+    left: 15%;
+
+    top: 10px;
+  }
+  .c {
+    position: relative;
+    left: 15%;
+    top: 20px;
+  }
+  .d {
+    position: relative;
+    left: 15%;
+    top: 30px;
+  }
+  .e {
+    position: relative;
+    left: 15%;
+    top: 40px;
+  }
+  .f {
+    position: relative;
+    left: 15%;
+    top: 50px;
+  }
+  
+  .img{
+    position: absolute;
+    left: 15%;
+    width: 25%;
+  }
+  
+  .pj{
+    color: cyan;
+    font-weight: bolder;
+  }
+  
+  .f.z{
+    font-weight: lighter;
+    left: 15%;
+    top: 90px;
+  }
+  
+  .f.z.b{
+    color: cyan;
+    background-color: #606060;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: #fff 2px 2px 4px;
+  }
+  .xzxc.aa {
+    padding-left: 0px;
+    margin-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.bb {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.cc {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.dd {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.ee {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.ff {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+}
+@media (max-width:600px){
+  .info{
+    font-size: 22px;
+  }
+  .a {
+    position: relative;
+    left: 10px;
+    top: 100px;
+  }
+  .b {
+    position: relative;
+    left: 10px;
+    top: 50px;
+  }
+  .c {
+    position: relative;
+    left: 10px;
+    top: 0px;
+  }
+  .d {
+    position: relative;
+    left: 10px;
+    top: -50px;
+  }
+  .e {
+    position: relative;
+    left: 10px;
+    top: -80px;
+  }
+  .f {
+    position: relative;
+    left: 10px;
+    top: -100px;
+  }
+  
+  .img{
+    position: absolute;
+    left: 39%;
+    width: 25%;
+    top: 150px;
+  }
+  
+  .pj{
+    color: cyan;
+    font-weight: bolder;
+  }
+  
+  .f.z{
+    font-weight: lighter;
+    left: 10px;
+    top: -150px;
+  }
+  
+  .f.z.b{
+    color: cyan;
+    background-color: #606060;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: #fff 2px 2px 4px;
+  }
+  .xzxc.aa {
+    padding-left: 0px;
+    margin-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.bb {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.cc {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.dd {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.ee {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+  .xzxc.ff {
+    padding-left: 0px;
+    color: grey;
+    font-weight: lighter;
+  }
+}
+
+@media (max-width:460px){
+  .info{
+    font-size: 15px;
+  }
+
+  .img{
+    position: absolute;
+    width:35% ;
+    left: 150px;
+  }
+
 }
